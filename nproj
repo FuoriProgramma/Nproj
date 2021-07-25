@@ -3,9 +3,6 @@
 # Generatore progetti
 #    - By FuoriProgramma
 
-install_dir="/opt/Nproj"
-
-
 function crea_file {
 	touch .projectile
 	touch .gitignore
@@ -33,3 +30,5 @@ if [[ $1 == "C" ]]; then
 	sed -i "s/FILE_MAIN/$main/g" CMakeLists.txt
 	exit
 fi
+
+echo "Linguaggio non riconosciuto..."
