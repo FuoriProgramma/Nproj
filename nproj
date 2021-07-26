@@ -3,6 +3,8 @@
 # Generatore progetti
 #    - By FuoriProgramma
 
+install_dir=$HOME/.Nproj
+
 function crea_file {
 	touch .projectile
 	touch .gitignore
